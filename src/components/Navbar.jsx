@@ -169,7 +169,7 @@ const Navbar = () => {
           }`}
         >
           {isLoggedIn ? (
-            <div className="flex flex-col h-full space-y-4">
+            <div className="space-y-4">
               <div className="bg-indigo-700/50 rounded-lg p-4 backdrop-blur-sm">
                 <Link
                   to="/activities"
@@ -214,8 +214,8 @@ const Navbar = () => {
                 </Link>
               </div>
 
-              <div className="bg-indigo-700/50 rounded-lg p-4 backdrop-blur-sm mt-auto">
-                <div className="flex justify-center items-center">
+              <div className="bg-indigo-700/50 rounded-lg p-4 backdrop-blur-sm">
+                <div className="mt-2 flex justify-center items-center">
                   <LogoutModal onLogout={handleLogout} isMobile={true} />
                 </div>
               </div>

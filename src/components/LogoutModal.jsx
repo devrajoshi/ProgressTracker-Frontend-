@@ -16,7 +16,7 @@ const LogoutModal = ({ onLogout, isMobile = false }) => {
         onClick={() => setIsModalOpen(true)}
         className={
           isMobile
-            ? "block w-full text-left px-4 py-2 text-white bg-red-500 hover:bg-red-600 rounded-md text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+            ? "inline-block text-center px-4 py-2 text-white bg-red-500 hover:bg-red-600 rounded-md text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
             : "text-white bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
         }
       >

@@ -191,7 +191,7 @@ const TaskItem = ({ task, onEdit, onDelete, onTaskCompletion }) => {
                 onClick={() => onTaskCompletion(task._id, percentage)}
                 className={`flex-1 h-7 sm:h-8 md:h-9 rounded flex items-center justify-center transition-all ${
                   task.completionPercentage >= percentage
-                    ? "bg-indigo-600 text-white"
+                    ? "bg-green-600 text-white"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
                 disabled={task.completionPercentage === 100}

@@ -173,7 +173,7 @@ const Navbar = () => {
               <div className="bg-indigo-700/50 rounded-lg p-4 backdrop-blur-sm">
                 <Link
                   to="/activities"
-                  className="flex items-center space-x-3 text-white hover:bg-indigo-500 px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 transform hover:scale-105 hover:translate-x-2 hover:shadow-md group"
+                  className="flex items-center justify-center space-x-3 text-white hover:bg-indigo-500 px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 transform hover:scale-105 hover:translate-x-2 hover:shadow-md group"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@ const Navbar = () => {
 
                 <Link
                   to="/history"
-                  className="flex items-center space-x-3 text-white hover:bg-indigo-500 px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 transform hover:scale-105 hover:translate-x-2 hover:shadow-md group mt-2"
+                  className="flex items-center justify-center space-x-3 text-white hover:bg-indigo-500 px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 transform hover:scale-105 hover:translate-x-2 hover:shadow-md group mt-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

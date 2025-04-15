@@ -217,9 +217,9 @@ const History = () => {
                   } inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-300 ease-in-out`}
                 />
               </Switch>
-              <Switch.Label className="ml-2 text-gray-700 cursor-pointer">
+              {/* <Switch.Label className="ml-2 text-gray-700 cursor-pointer">
                 Monthly
-              </Switch.Label>
+              </Switch.Label> */}
             </motion.div>
           </Switch.Group>
         </motion.div>

@@ -315,7 +315,7 @@ const Profile = () => {
                 {/* User Info Section */}
                 <motion.div
                   variants={itemVariants}
-                  className="mt-8 w-full max-w-md space-y-6"
+                  className="mt-8 w-full max-w-md space-y-2"
                 >
                   {[
                     { field: "fullname", icon: FaUser },

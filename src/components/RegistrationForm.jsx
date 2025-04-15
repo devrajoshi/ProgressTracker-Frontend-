@@ -195,7 +195,7 @@ const RegistrationForm = () => {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full max-w-[440px] bg-white/90 backdrop-blur-sm rounded-xl shadow-xl p-6 sm:p-8 mx-auto my-8"
+            className="w-full max-w-[440px] bg-white/90 backdrop-blur-sm rounded-xl shadow-xl p-6 sm:p-8 mx-auto my-4 sm:my-8"
           >
             <motion.div
               initial={{ opacity: 0 }}
